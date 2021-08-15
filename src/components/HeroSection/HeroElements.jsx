@@ -68,6 +68,8 @@ export const HeroH1 = styled.h1`
     color: #fff;
     font-size: 48px;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
@@ -84,6 +86,8 @@ export const HeroP = styled.p`
     font-size: 24px;
     text-align: left;
     max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
@@ -99,6 +103,10 @@ export const HeroBtnWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: row;
+    }
 `;
 
 export const IoCopy = styled(IoMdCopy)`

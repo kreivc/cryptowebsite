@@ -82,7 +82,7 @@ const HeroSection = () => {
                                 // exact="true"
                                 // offset={-80}
                             >
-                                0x56b6fb708fc5732dec1afc8d8556423a2edccbd6
+                                0x56b6fb708fc5732dec1afc...
                                 {hover ? <IoCopy /> : <ArrowRight />}
                             </Button>
                         </CopyToClipboard>
@@ -94,7 +94,7 @@ const HeroSection = () => {
                         }}
                         TransitionComponent={Slide}
                         open={open}
-                        autoHideDuration={1500}
+                        autoHideDuration={3000}
                         onClose={handleClose}
                         message="token address copied!"
                         action={
