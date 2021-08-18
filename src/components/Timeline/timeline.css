@@ -36,18 +36,15 @@
     padding: 0.5em 1em;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 
-.workButton {
+.cms {
     background-color: #de1b42;
 }
 
-.workButton:hover {
-    background-color: #de1b42;
-}
-
-.schoolButton {
-    background-color: #de1b42;
+.success {
+    background-color: #01bf71;
 }
 
 .schoolButton:hover {

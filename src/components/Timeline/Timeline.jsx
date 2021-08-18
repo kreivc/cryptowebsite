@@ -8,11 +8,11 @@ import "react-vertical-timeline-component/style.min.css";
 
 export default function Timeline() {
     return (
-        <div className="timeline">
+        <div className="timeline" id="timeline">
             <h1 className="title">Timeline</h1>
             <VerticalTimeline>
                 {timelineElements.map((element) => {
-                    let isWorkIcon = element.icon === "work";
+                    let isSuccessIcon = element.icon === "success";
                     let showButton =
                         element.buttonText !== undefined &&
                         element.buttonText !== null &&
@@ -23,10 +23,17 @@ export default function Timeline() {
                             key={element.key}
                             date={element.date}
                             dateClassName="date"
-                            iconStyle={{ background: "#de1b42" }}
-                            icon={"Q" + element.id}
+                            iconStyle={{
+                                backgroundColor: `${
+                                    isSuccessIcon ? "#01bf71" : "#de1b42"
+                                }`,
+                            }}
+                            icon={element.id}
                             iconClassName="iconQ"
                         >
+                            <h1 className="vertical-timeline-element-title">
+                                {element.end}
+                            </h1>
                             <h3 className="vertical-timeline-element-title title3">
                                 {element.title}
                             </h3>
@@ -35,16 +42,15 @@ export default function Timeline() {
                             </h5>
                             <p id="description">{element.description}</p>
                             {showButton && (
-                                <a
-                                    className={`button ${
-                                        isWorkIcon
-                                            ? "workButton"
-                                            : "schoolButton"
+                                <span
+                                    className={`${
+                                        isSuccessIcon
+                                            ? "button success"
+                                            : "button cms"
                                     }`}
-                                    href="/"
                                 >
                                     {element.buttonText}
-                                </a>
+                                </span>
                             )}
                         </VerticalTimelineElement>
                     );

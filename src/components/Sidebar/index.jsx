@@ -7,7 +7,7 @@ import {
     SidebarMenu,
     SidebarLink,
     SideBtnWrap,
-    SidebarRoute,
+    SidebarGotoP,
     SidebarLinkGoto,
 } from "./SidebarElements";
 
@@ -22,14 +22,11 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="about" onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
-                        Discover
+                    <SidebarLink to="tokenomics" onClick={toggle}>
+                        Tokenomics
                     </SidebarLink>
-                    <SidebarLink to="services" onClick={toggle}>
-                        Services
-                    </SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                    <SidebarLink to="timeline" onClick={toggle}>
+                        Timeline
                     </SidebarLink>
                     <SidebarLinkGoto
                         href="https://poocoin.app/"
@@ -39,7 +36,12 @@ const Sidebar = ({ isOpen, toggle }) => {
                     </SidebarLinkGoto>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                    <SidebarGotoP
+                        href="https://pancakeswap.finance/"
+                        target="_blank"
+                    >
+                        Buy On Pancake
+                    </SidebarGotoP>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

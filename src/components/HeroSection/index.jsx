@@ -68,7 +68,7 @@ const HeroSection = () => {
                         towards tokenomics holdings for 1 month.
                     </HeroP>
                     <HeroBtnWrapper>
-                        <CopyToClipboard text="0x56b6fb708fc5732dec1afc8d8556423a2edccbd6">
+                        <CopyToClipboard text="0x0000000000000000000000000000000000000000">
                             <Button
                                 primary="true"
                                 dark="true"
@@ -76,7 +76,7 @@ const HeroSection = () => {
                                 onMouseLeave={onHover}
                                 onClick={handleClick}
                             >
-                                0x56b6fb708fc5732dec1afc...
+                                0x0000000000000000000000...
                                 {hover ? <IoCopy /> : <ArrowRight />}
                             </Button>
                         </CopyToClipboard>
