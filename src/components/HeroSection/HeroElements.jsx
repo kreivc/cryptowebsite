@@ -121,12 +121,10 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 
 export const HeroContentItemKiri = styled.div`
     flex: 2;
-    /* background-color: red; */
 `;
 
 export const HeroContentItemKanan = styled.div`
     flex: 3;
-    /* background-color: blue; */
 `;
 
 export const HeroContentImgWrapper = styled.div`
@@ -134,13 +132,10 @@ export const HeroContentImgWrapper = styled.div`
     align-items: center;
     height: 100%;
     margin-bottom: 60px;
-    /* background-color: red; */
     justify-content: flex-start;
 `;
 
 export const HeroImg = styled.img`
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 2px white solid;
+    width: 325px;
+    height: 100%;
 `;

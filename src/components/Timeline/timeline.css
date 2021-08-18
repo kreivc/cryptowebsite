@@ -39,19 +39,19 @@
 }
 
 .workButton {
-    background-color: #06d6a0;
+    background-color: #de1b42;
 }
 
 .workButton:hover {
-    background-color: #0ac593;
+    background-color: #de1b42;
 }
 
 .schoolButton {
-    background-color: #f9c74f;
+    background-color: #de1b42;
 }
 
 .schoolButton:hover {
-    background-color: #f3bc3c;
+    background-color: #de1b42;
 }
 
 .iconQ {

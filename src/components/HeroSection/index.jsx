@@ -14,14 +14,14 @@ import {
     HeroContentImgWrapper,
     HeroImg,
 } from "./HeroElements";
-import Video from "../../videos/video.mp4";
 import { Button } from "../ButtonElement";
-import Image from "../../images/eos.png";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Snackbar from "@material-ui/core/Snackbar";
 import IconButton from "@material-ui/core/IconButton";
 import { MdClose } from "react-icons/md";
 import { Slide } from "@material-ui/core";
+import Image from "../../images/PEE.png";
+import Video from "../../videos/video3.mp4";
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false);
@@ -75,12 +75,6 @@ const HeroSection = () => {
                                 onMouseEnter={onHover}
                                 onMouseLeave={onHover}
                                 onClick={handleClick}
-                                // to="signup"
-                                // smooth={true}
-                                // duration={500}
-                                // spy={true}
-                                // exact="true"
-                                // offset={-80}
                             >
                                 0x56b6fb708fc5732dec1afc...
                                 {hover ? <IoCopy /> : <ArrowRight />}

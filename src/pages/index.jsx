@@ -5,10 +5,10 @@ import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import {
     homeObjOne,
-    homeObjThree,
+    // homeObjThree,
     homeObjTwo,
 } from "../components/InfoSection/Data";
-import Services from "../components/Services";
+// import Services from "../components/Services";
 import Footer from "../components/Footer";
 import Timeline from "../components/Timeline/Timeline";
 
@@ -26,8 +26,8 @@ const Home = () => {
             <HeroSection />
             <InfoSection {...homeObjOne} />
             <InfoSection {...homeObjTwo} />
-            <Services />
-            <InfoSection {...homeObjThree} />
+            {/* <Services />
+            <InfoSection {...homeObjThree} /> */}
             <Timeline />
             <Footer />
         </>

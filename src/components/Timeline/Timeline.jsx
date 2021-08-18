@@ -23,7 +23,7 @@ export default function Timeline() {
                             key={element.key}
                             date={element.date}
                             dateClassName="date"
-                            iconStyle={{ background: "#01BF71" }}
+                            iconStyle={{ background: "#de1b42" }}
                             icon={"Q" + element.id}
                             iconClassName="iconQ"
                         >
