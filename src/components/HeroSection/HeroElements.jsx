@@ -53,7 +53,7 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8px 24px;
+    padding: 8px 0px;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
@@ -70,9 +70,12 @@ export const HeroH1 = styled.h1`
     text-align: left;
     display: flex;
     flex-wrap: wrap;
+    text-shadow: 1px 1px 2px #fff, 0 0 1em #de1b42, 0 0 0.2em #de1b42,
+        0 0 0.4em #de1b42;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
+        margin-left: 10px;
     }
 
     @media screen and (max-width: 480px) {
@@ -91,6 +94,7 @@ export const HeroP = styled.p`
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
+        margin-left: 10px;
     }
 
     @media screen and (max-width: 480px) {

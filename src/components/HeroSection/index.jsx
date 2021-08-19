@@ -62,10 +62,10 @@ const HeroSection = () => {
                     </HeroContentImgWrapper>
                 </HeroContentItemKiri>
                 <HeroContentItemKanan>
-                    <HeroH1>Virtual Currecy Made Easy</HeroH1>
+                    <HeroH1>PEE</HeroH1>
                     <HeroP>
-                        Buy token now, for new holders will get $100 in token
-                        towards tokenomics holdings for 1 month.
+                        PEE stands for PunkEtherEarn. Our trusted community is a
+                        place where we can PEE in safety.
                     </HeroP>
                     <HeroBtnWrapper>
                         <CopyToClipboard text="0x0000000000000000000000000000000000000000">
