@@ -110,6 +110,8 @@ export const HeroBtnWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         flex-direction: row;
+        /* margin-left: 10px; */
+        justify-content: center;
     }
 `;
 

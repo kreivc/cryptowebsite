@@ -3,11 +3,11 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: "Premium Token",
-    headline: "Unlimited Transaction with minimal fees",
+    topLine: "About PEE Token",
+    headline: "Create a Safehaven For Token Traders",
     description:
-        "Get acces to out exclusive app that allows you to send unlimited transaction without getting charge for extra fees.",
-    buttonLabel: "Get started",
+        "Our main goal is to provide people a safe and trustworthy place where they can invest their money. PEE holders can earn Ether rewards by holding a certain amount of the token. As a community developed token, we focus on the needs of our community members. ",
+    // buttonLabel: "Get started",
     imgStart: false,
     img: require("../../images/about.svg").default,
     alt: "Car",
@@ -21,10 +21,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: "Unlimited Access",
-    headline: "Login to your account at any time",
-    description:
-        "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer",
+    topLine: "Tokenomics",
+    headline: "Best Tokenomics deal for Holder",
+    // description:
+    //     "We have you covered no matter where you are located. All you need is an internet connection and a phone or computer",
     buttonLabel: "Learn More",
     imgStart: true,
     img: require("../../images/cht.svg").default,
@@ -32,6 +32,12 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
+    d1: "100.000.000.000 Tokens",
+    d2: "2.5% Max Buy",
+    d3: "3.5% Max Wallet",
+    d4: "8% ETH",
+    d5: "2% LP",
+    d6: "6% Marketing",
 };
 
 // export const homeObjThree = {

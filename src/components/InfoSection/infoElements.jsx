@@ -36,20 +36,20 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 10px;
     grid-area: col1;
 `;
 
 export const Column2 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 10px;
     grid-area: col2;
 `;
 
 export const TextWrapper = styled.div`
     max-width: 540px;
     padding-top: 0;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
 `;
 
 export const TopLine = styled.p`
@@ -75,7 +75,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     font-size: 18px;
     line-height: 24px;
     color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
@@ -95,4 +95,15 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
+`;
+
+export const DescTWrapper = styled.div`
+    align-items: center;
+    margin-bottom: 80px;
+`;
+
+export const DescT = styled.div`
+    color: #de1b42;
+    font-size: 16px;
+    font-weight: 600;
 `;

@@ -90,7 +90,7 @@ const HeroSection = () => {
                         open={open}
                         autoHideDuration={3000}
                         onClose={handleClose}
-                        message="token address copied!"
+                        message="PEE Address Copied!"
                         action={
                             <IconButton onClick={handleClose}>
                                 <MdClose />
