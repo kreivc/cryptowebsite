@@ -3,8 +3,9 @@ let timelineElements = [
         id: 1,
         title: "Initialize Token",
         location: "August, 2021",
-        description: "Launch Comunity Group, Launch Website, Create PEE Token",
-        buttonText: "Success!",
+        description:
+            "Launch Comunity Group ✅, Launch Website ✅, Launch PEE Token ",
+        buttonText: "On Going!",
         icon: "success",
     },
     {
