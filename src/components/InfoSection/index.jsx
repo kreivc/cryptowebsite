@@ -10,12 +10,10 @@ import {
     TopLine,
     Heading,
     Subtitle,
-    // BtnWrap,
     Img,
     DescT,
     DescTWrapper,
 } from "./infoElements";
-// import { Button } from "../ButtonElement";
 
 const InfoSection = ({
     lightBg,
@@ -53,21 +51,6 @@ const InfoSection = ({
                                 <Subtitle darkText={darkText}>
                                     {description}
                                 </Subtitle>
-                                {/* <BtnWrap>
-                                    <Button
-                                        to="home"
-                                        smooth={true}
-                                        duration={500}
-                                        spy={true}
-                                        excact={true}
-                                        offset={-80}
-                                        primary={primary ? 1 : 0}
-                                        dark={dark ? 1 : 0}
-                                        dark2={dark2 ? 1 : 0}
-                                    >
-                                        {buttonLabel}
-                                    </Button>
-                                </BtnWrap> */}
                                 <DescTWrapper>
                                     <DescT>{d1}</DescT>
                                     <DescT>{d2}</DescT>
