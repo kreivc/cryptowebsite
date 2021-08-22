@@ -5,9 +5,9 @@ let timelineElements = [
         location: "August, 2021",
         // description:
         //     "Launch Community Group ✅, Launch Website ✅, Launch PEE Token ",
-        description1: "Launch Community Group ✅",
-        description2: "Launch Website ✅",
-        description3: "Launch PEE Token",
+        description1: "• Launch Community Group ✅",
+        description2: "• Launch Website ✅",
+        description3: "• Launch PEE Token",
         buttonText: "On Going!",
         icon: "success",
     },
@@ -15,8 +15,11 @@ let timelineElements = [
         id: 2,
         title: "Marketing Phase",
         location: "September, 2021",
-        description:
-            "Introducing Influencers and Collaborations With Key Market Players, 10k Holders, Further deployment of listings on several platforms",
+        // description:
+        //     "Introducing Influencers and Collaborations With Key Market Players, 10k Holders, Further deployment of listings on several platforms",
+        description1: "• 10k Holders",
+        description2: "• Further listings platforms",
+        description3: "• Collaborations with key market players",
         buttonText: "Coming Soon!",
         icon: "cms",
     },
@@ -24,8 +27,12 @@ let timelineElements = [
         id: 3,
         title: "Retain Holder",
         location: "October, 2021",
-        description:
-            "Contract Logo, Reach 20k Holders, Reach 15k Telegram Members, Further Marketing",
+        // description:
+        //     "Contract Logo, Reach 20k Holders, Reach 15k Telegram Members, Further Marketing",
+        description1: "• Contract Logo",
+        description2: "• Reach 20k Holders",
+        description3: "• Further Marketing",
+        description4: "• Reach 15k Telegram Members",
         buttonText: "Coming Soon!",
         icon: "cms",
     },
