@@ -41,9 +41,9 @@ export default function Timeline() {
                                 {element.location}
                             </h5>
                             <p id="description">{element.description}</p>
-                            <p id="description">{element.description1}</p>
-                            <p id="description">{element.description2}</p>
-                            <p id="description">{element.description3}</p>
+                            <p id="descriptionR">{element.description1}</p>
+                            <p id="descriptionR">{element.description2}</p>
+                            <p id="descriptionR">{element.description3}</p>
                             {showButton && (
                                 <span
                                     className={`${

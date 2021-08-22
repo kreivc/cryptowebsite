@@ -31,6 +31,10 @@
     margin: 1.5em 0 2em 0;
 }
 
+#descriptionR {
+    margin: 0;
+}
+
 .button {
     text-decoration: none;
     padding: 0.5em 1em;
