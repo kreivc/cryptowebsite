@@ -18,8 +18,9 @@ let timelineElements = [
         // description:
         //     "Introducing Influencers and Collaborations With Key Market Players, 10k Holders, Further deployment of listings on several platforms",
         description1: "• 10k Holders",
-        description2: "• Further listings platforms",
-        description3: "• Collaborations with key market players",
+        description2: "• Introducing Influencers",
+        description3: "• Further listings platforms",
+        description4: "• Collaborations with key market players",
         buttonText: "Coming Soon!",
         icon: "cms",
     },
@@ -30,8 +31,8 @@ let timelineElements = [
         // description:
         //     "Contract Logo, Reach 20k Holders, Reach 15k Telegram Members, Further Marketing",
         description1: "• Contract Logo",
-        description2: "• Reach 20k Holders",
-        description3: "• Further Marketing",
+        description2: "• Further Marketing",
+        description3: "• Reach 20k Holders",
         description4: "• Reach 15k Telegram Members",
         buttonText: "Coming Soon!",
         icon: "cms",
