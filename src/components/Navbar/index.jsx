@@ -16,6 +16,8 @@ import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false);
+    const [chart, setChart] = useState("Chart");
+    const [pancake, setPancake] = useState("Buy On Pancake");
     const changeNav = () => {
         if (window.scrollY >= 80) {
             setScrollNav(true);
@@ -83,8 +85,10 @@ const Navbar = ({ toggle }) => {
                             <NavGoto
                                 href="https://poocoin.app/"
                                 target="_blank"
+                                onMouseOver={() => setChart("Not released yet")}
+                                onMouseLeave={() => setChart("Chart")}
                             >
-                                Chart
+                                {chart}
                             </NavGoto>
                         </NavItem>
                     </NavMenu>
@@ -92,8 +96,10 @@ const Navbar = ({ toggle }) => {
                         <NavBtnLink
                             href="https://pancakeswap.finance/"
                             target="_blank"
+                            onMouseOver={() => setPancake("Not released yet")}
+                            onMouseLeave={() => setPancake("Buy On Pancake")}
                         >
-                            Buy On Pancake
+                            {pancake}
                         </NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>

@@ -11,23 +11,24 @@ let timelineElements = [
     {
         id: 2,
         title: "Marketing Phase",
-        location: "August, 2021",
-        description: "Marketing, Coin Gecko Listing, 10k Holders",
+        location: "September, 2021",
+        description:
+            "Introducing Influencers and Collaborations With Key Market Players, 10k Holders, Further deployment of listings on several platforms",
         buttonText: "Coming Soon!",
         icon: "cms",
     },
     {
         id: 3,
         title: "Retain Holder",
-        location: "September, 2021",
+        location: "October, 2021",
         description:
             "Contract Logo, Reach 20k Holders, Reach 15k Telegram Members, Further Marketing",
-        buttonText: "Comming Soon!",
+        buttonText: "Coming Soon!",
         icon: "cms",
     },
     {
         id: 4,
-        buttonText: "Comming Soon!",
+        buttonText: "Coming Soon!",
         end: "To be Announced!",
         icon: "cms",
     },

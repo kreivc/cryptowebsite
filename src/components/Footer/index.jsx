@@ -39,7 +39,7 @@ const Footer = () => {
                                 <FaTelegram />
                             </SocialIconLink>
                             <SocialIconLink
-                                href="https://twitter.com/home"
+                                href="https://twitter.com/PunkEtherEarn_"
                                 target="_blank"
                                 aria-label="Twitter"
                             >
