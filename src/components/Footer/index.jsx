@@ -53,7 +53,7 @@ const Footer = () => {
                                 <FaPoo />
                             </SocialIconLink>
                             <SocialIconLink
-                                href="https://bscscan.com/address/0x402529cbe402f87fc1a9c97fab0abada0a6da334"
+                                href="https://bscscan.com/tx/0xbdc4b41fc506f052bb6709841e2185acc1e3853668525a46a3c91bfefebb15cd"
                                 target="_blank"
                                 aria-label="BscScan"
                             >
