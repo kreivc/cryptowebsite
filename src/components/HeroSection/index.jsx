@@ -68,8 +68,7 @@ const HeroSection = () => {
                         place where we can PEE in safety.
                     </HeroP>
                     <HeroBtnWrapper>
-                        {/* 0x0000000000000000000000000000000000000000 */}
-                        <CopyToClipboard text="Not released yet">
+                        <CopyToClipboard text="0x402529CBE402F87Fc1A9c97fAb0aBADa0a6Da334">
                             <Button
                                 primary="true"
                                 dark="true"
@@ -77,8 +76,7 @@ const HeroSection = () => {
                                 onMouseLeave={onHover}
                                 onClick={handleClick}
                             >
-                                {/* 0x0000000000000000000000000000000000000000 */}
-                                Not released yet
+                                0x402529CBE402F87Fc1A9c97fAb0aBADa0a6Da334
                                 {hover ? <IoCopy /> : <ArrowRight />}
                             </Button>
                         </CopyToClipboard>

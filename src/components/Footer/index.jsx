@@ -46,14 +46,14 @@ const Footer = () => {
                                 <FaTwitter />
                             </SocialIconLink>
                             <SocialIconLink
-                                href="https://poocoin.app/"
+                                href="https://poocoin.app/tokens/0x402529cbe402f87fc1a9c97fab0abada0a6da334"
                                 target="_blank"
                                 aria-label="PooCoin"
                             >
                                 <FaPoo />
                             </SocialIconLink>
                             <SocialIconLink
-                                href="https://bscscan.com/"
+                                href="https://bscscan.com/address/0x402529cbe402f87fc1a9c97fab0abada0a6da334"
                                 target="_blank"
                                 aria-label="BscScan"
                             >
